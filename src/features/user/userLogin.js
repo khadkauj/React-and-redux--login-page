@@ -15,8 +15,12 @@ function Login() {
 
 
     const LogInFunc = () => {
-        disptach(setUsername({username : name}));
-        setname([''])
+        {name ? 
+            disptach(setUsername({username : name}))
+            :
+            alert('No name value passed')
+        }
+        setname('')
     }
   
     const LogOutFunc  = () => {
@@ -37,7 +41,7 @@ function Login() {
             <div className='buttons'>
                 <input class="input-reset ba b--black-20 pa2 mb2 db w-100"  value={name} onChange={(e) => setname(e.target.value)} placeholder="Your Name" type="text"  />
                 <Button class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black" disabled={!name}  variant="contained" color="primary" type="submit" onClick={LogInFunc}>LogMeIn</Button>
-                <Button class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black" disabled={!name}  variant="contained" color="danger" onClick={() => LogOutFunc()}>LogMeOut</Button>
+                <Button class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black"   variant="contained" color="danger" onClick={() => LogOutFunc()}>LogMeOut</Button>
             </div>
             
         </div>
