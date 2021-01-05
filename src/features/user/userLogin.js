@@ -9,7 +9,7 @@ import './userLogin.css'
 function Login() {
 
     const disptach = useDispatch();
-    const [name, setname] = useState('')
+    const [name, setname] = useState([''])
 
 
 
