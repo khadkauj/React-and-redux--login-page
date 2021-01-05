@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-and-redux--login-page/static/css/main.d38e6996.chunk.css",
+    "main.js": "/React-and-redux--login-page/static/js/main.c560f66b.chunk.js",
+    "main.js.map": "/React-and-redux--login-page/static/js/main.c560f66b.chunk.js.map",
+    "runtime-main.js": "/React-and-redux--login-page/static/js/runtime-main.9b128f91.js",
+    "runtime-main.js.map": "/React-and-redux--login-page/static/js/runtime-main.9b128f91.js.map",
+    "static/css/2.31461e4f.chunk.css": "/React-and-redux--login-page/static/css/2.31461e4f.chunk.css",
+    "static/js/2.69c7b0ee.chunk.js": "/React-and-redux--login-page/static/js/2.69c7b0ee.chunk.js",
+    "static/js/2.69c7b0ee.chunk.js.map": "/React-and-redux--login-page/static/js/2.69c7b0ee.chunk.js.map",
+    "index.html": "/React-and-redux--login-page/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/React-and-redux--login-page/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.d38e6996.chunk.css.map": "/React-and-redux--login-page/static/css/main.d38e6996.chunk.css.map",
+    "static/js/2.69c7b0ee.chunk.js.LICENSE.txt": "/React-and-redux--login-page/static/js/2.69c7b0ee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b128f91.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.69c7b0ee.chunk.js",
+    "static/css/main.d38e6996.chunk.css",
+    "static/js/main.c560f66b.chunk.js"
+  ]
+}
